@@ -30,7 +30,7 @@
 
 <div class="card gap-16 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 overflow-hidden rounded-lg">
 	<!-- Add tool here -->
-	<div class="border-yellow-500 border-4 p-4 w-full">
+	<div class="border-white-500 border-4 p-4 w-full">
       <div class="flex justify-between items-center mb-4">
         <h1 class="text-xl font-bold">{selectedTimezone}</h1>
         <div class="select">
@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div class="flex justify-around items-center border-yellow-500 border-4 p-4 mt-4">
+<div class="flex justify-around items-center border-white-500 border-4 p-4 mt-4">
     {#each timezones as timezone}
       <AnalogClock {timezone} />
     {/each}

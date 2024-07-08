@@ -309,9 +309,9 @@
         ]
     },
     "world-clock": {
-        "name": "World Clock",
+        "name": "",
         "link": "/world-clock",
-        "description": "Under Development and Testing!",
+        "description": "",
         "contributors": [
             {
                 "name": "ILyas Sayyed",
